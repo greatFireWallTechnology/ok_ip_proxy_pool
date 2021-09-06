@@ -14,7 +14,7 @@ SPIDER = {
 
 # 校验器配置
 VALIDATOR = {
-    'test_url': 'http://www.baidu.com',     # 可用校验url
+    'test_url': 'http://www.gstatic.com',     # 可用校验url
     'request_timeout': 4,           # 校验超时时间
     'validate_interval': 60         # 校验间隔(秒)
 }
@@ -40,13 +40,13 @@ DB = {
 
 # WEB配置(Flask)
 WEB_SERVER = {
-    'host': '0.0.0.0',
-    'port': '8080'
+    'host': '127.0.0.1',
+    'port': '10086'
 }
 
 # 爬虫请求头
 HEADERS = {
     "X-Requested-With": "XMLHttpRequest",
-    "User-Agent": "Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 "
-    "(KHTML, like Gecko) Chrome/56.0.2924.87 Safari/537.36",
+    "User-Agent": "Mozilla/5.0 (Windows NT 10.0) AppleWebKit/537.36"
+    "(KHTML, like Gecko) Chrome/99.0.7113.93 Safari/537.36",
 }
